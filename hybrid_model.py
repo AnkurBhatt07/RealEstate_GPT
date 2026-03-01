@@ -315,7 +315,11 @@ for i , (_ , row) in enumerate(top_df.iterrows())
 
     User Query: {query}
 
-    Answer in bullet points:
+    Answer in bullet points . 
+    Each bullet point should correspond to one unique property.
+    All information about the property should be included in their respective bullet point.It should be Human Friendly to read.
+    Make absolutely sure to include those details which help in locating the property like location , society name and also details which help in decision making like price , size , bhk , area type , availability.
+
 
     """
 
